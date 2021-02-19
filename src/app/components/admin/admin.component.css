@@ -1,0 +1,24 @@
+::ng-deep .modal-dialog-table .modal-dialog {
+  display: table;
+}
+
+
+h2 {
+  text-align: center;
+  font-weight: 600;
+  color: rgb(100, 150, 270);
+
+}
+
+
+h4 {
+  text-align: left;
+  font-weight: 400;
+  color: rgb(100, 150, 270);
+
+}
+
+table {
+  color: rgb(100, 150, 270);
+  font-weight: 400;
+}

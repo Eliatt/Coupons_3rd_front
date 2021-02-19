@@ -1,0 +1,12 @@
+<div class="container">
+  <h2 class="m-3">Scoupons! Great Deals For You To Scoop</h2>
+
+  <ngb-carousel [interval]="4000" [pauseOnHover]="true" *ngIf="images">
+    <ng-template ngbSlide *ngFor="let image of images">
+      <div class="picsum-img-wrapper row justify-content-center">
+        <img class="col-12" [src]="image.src" [alt]="image.alt" />
+      </div>
+      <div class="carousel-caption"></div>
+    </ng-template>
+  </ngb-carousel>
+</div>
